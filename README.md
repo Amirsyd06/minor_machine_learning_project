@@ -1,1 +1,1 @@
-These are minor problems i assume i may haved solve!
+These are minor problems i assume i may have solved!
