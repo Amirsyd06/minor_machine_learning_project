@@ -9,7 +9,7 @@ dataframe = pd.read_csv("student_score.csv")
 
 data = dataframe.iloc[: , :-1]
 label = dataframe.iloc[: ,1]
-
+print(data)
 x_test , x_train , y_test , y_train = train_test_split(data , label , test_size=0.2)
 
 regression = LinearRegression()
