@@ -16,7 +16,7 @@ for coloumns in zero_not_accepted:
 x = dataframe.iloc[: , :8]
 y = dataframe.iloc[: , 8]
 print(x)
-x_test,x_train,y_test,y_train = train_test_split(x , y , train_size=0.2)
+x_train,x_test,y_train,y_test= train_test_split(x , y , train_size=0.2)
 clf = KNeighborsClassifier(n_neighbors=35)
 clf.fit(x_train , y_train)
 
